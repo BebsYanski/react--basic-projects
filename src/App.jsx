@@ -1,10 +1,10 @@
 import React from 'react'
-import Tours from './01-birthday-buddy/starter/index'
+import Reviews from './03-reviews/starter/index'
 
 const App = () => {
   return (
     <div>
-      <Tours />
+      <Reviews />
     </div>
   )
 }

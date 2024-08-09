@@ -251,7 +251,7 @@ ul {
   width: 7rem;
   height: 0.25rem;
   margin: 0 auto;
-  margin-top: 4rem;
+  margin-top: 2rem;
 }
 /* ============= PROJECT CSS =============== */
 
@@ -350,7 +350,7 @@ main {
 
 .random-btn {
   margin-top: 0.5rem;
-  background:var(--primary-100);
+  background: var(--primary-100);
   color: var(--primary-500);
   padding: 0.25rem 0.5rem;
   text-transform: capitalize;
@@ -358,8 +358,15 @@ main {
   transition: var(--transition);
   border-color: transparent;
   cursor: pointer;
+  display: inline-block;
+  margin: 2rem 0 0;
 }
-.random-btn:hover{
+.random-btn:hover {
   background: var(--primary-500);
   color: var(--primary-100);
+}
+
+.icon {
+  font-size: 4rem;
+  color: var(--primary-500);
 }

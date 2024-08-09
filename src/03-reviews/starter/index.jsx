@@ -4,9 +4,15 @@ import Review from './Review'
 
 const App = () => {
   return (
-    <div>
-      <h2>Our Reviews</h2>
-    </div>
+    <main>
+      <section className='container'>
+        <div className='title'>
+          <h2>Our Reviews</h2>
+          <div className='title-underline'></div>
+        </div>
+        <Review />
+      </section>
+    </main>
   )
 }
 
