@@ -1,3 +1,7 @@
+# Purpose
+I chose these projects so as to help mould myself in the React library environment and atmosphere.
+
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
