@@ -1,10 +1,10 @@
 import React from 'react'
-import Reviews from './03-reviews/starter/index'
+import Accordion from './04-accordion/starter/index'
 
 const App = () => {
   return (
     <div>
-      <Reviews />
+      <Accordion />
     </div>
   )
 }
