@@ -1,10 +1,10 @@
 import React from 'react'
-import Accordion from './04-accordion/starter/index'
+import Menu from './05-menu/starter/index'
 
 const App = () => {
   return (
     <div>
-      <Accordion />
+      <Menu />
     </div>
   )
 }
