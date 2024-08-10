@@ -81,5 +81,13 @@ const menu = [
     img: image9,
     desc: `skateboard fam synth authentic semiotics. Live-edge lyft af, edison bulb yuccie crucifix microdosing.`,
   },
+  {
+    id: 10,
+    title: 'quarantine buddy',
+    category: 'Dinner',
+    price: 96.99,
+    img: image9,
+    desc: `skateboard fam synth authentic semiotics. Live-edge lyft af, edison bulb yuccie crucifix microdosing.`,
+  },
 ]
 export default menu

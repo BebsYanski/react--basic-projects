@@ -3,10 +3,10 @@ import React from 'react'
 const Categories = ({ filterItems, categories }) => {
   return (
     <section className='btn-container'>
-      {categories.map((category) => {
+      {categories.map((category, index) => {
         return (
           <button
-            key={category}
+            key={index}
             className='filter-btn'
             type='button'
             onClick={() => filterItems(category)}
