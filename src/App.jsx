@@ -1,10 +1,10 @@
 import React from 'react'
-import Menu from './05-menu/starter/index'
+import Tabs from './06-tabs/starter/index'
 
 const App = () => {
   return (
     <div>
-      <Menu />
+      <Tabs />
     </div>
   )
 }
