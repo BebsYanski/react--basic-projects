@@ -1,10 +1,10 @@
 import React from 'react'
-import Tabs from './06-tabs/starter/index'
+import Slider from './07-slider/starter/index'
 
 const App = () => {
   return (
     <div>
-      <Tabs />
+      <Slider />
     </div>
   )
 }
