@@ -1,10 +1,10 @@
 import React from 'react'
-import Slider from './07-slider/starter/index'
+import Lorem from './08-lorem-ipsum/starter/index'
 
 const App = () => {
   return (
     <div>
-      <Slider />
+      <Lorem />
     </div>
   )
 }
