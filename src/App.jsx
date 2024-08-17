@@ -1,10 +1,10 @@
 import React from 'react'
-import Grocery from './10-grocery-bud/starter/index'
+import Navbar from './11-navbar/starter/index'
 
 const App = () => {
   return (
     <div>
-      <Grocery />
+      <Navbar />
     </div>
   )
 }
