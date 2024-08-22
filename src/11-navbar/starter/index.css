@@ -297,10 +297,13 @@ nav {
 /* 160px */
 
 .links-container {
+  height: 0;
   overflow: hidden;
   transition: var(--transition);
 }
-
+.show-container {
+  height: 10rem;
+}
 .social-icons {
   display: none;
 }

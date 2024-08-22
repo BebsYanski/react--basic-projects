@@ -6,6 +6,18 @@ import './index.css'
 import Sidebar from './Sidebar'
 const App = () => {
   const [showLinks, setShowLinks] = useState(false)
+  const linksContainerRef = useRef(null)
+  const linksRef = useRef(null)
+
+  useEffect(() => {
+    const linksHeight = linksRef.current.getBoundingClientRect().height
+    console.log(linksHeight)
+    if (showLinks) {
+      linksContainerRef.current.style.height = `${linksHeight}px`
+    } else {
+      linksContainerRef.current.style.height = '0px'
+    }
+  }, [showLinks])
   return (
     <nav>
       <div className='nav-center'>
@@ -18,20 +30,19 @@ const App = () => {
             <FaBars />
           </button>
         </div>
-        {showLinks && (
-          <div className='links-container show-container'>
-            <ul className='links'>
-              {links.map((link) => {
-                const { text, url, id } = link
-                return (
-                  <li key={id}>
-                    <a href={url}>{text}</a>
-                  </li>
-                )
-              })}
-            </ul>
-          </div>
-        )}
+
+        <div ref={linksContainerRef} className={'links-container'}>
+          <ul className='links' ref={linksRef}>
+            {links.map((link) => {
+              const { text, url, id } = link
+              return (
+                <li key={id}>
+                  <a href={url}>{text}</a>
+                </li>
+              )
+            })}
+          </ul>
+        </div>
 
         <ul className='social-icons'>
           {social.map((item) => {
